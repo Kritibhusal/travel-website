@@ -1,3 +1,16 @@
+//MIMAMSA
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header Design</title>
+    <style>
+
+
+
+
+//KRITI
 /*HEADER DESIGN*/
 #header{
     display:flex;
@@ -47,4 +60,26 @@
     position: absolute;
     bottom: -4px;
     left: 20px;
+    }
 }
+    </style>
+</head>
+<body>
+
+//from here written in html
+<header id="header">
+    <div id="logo">
+        <h1>  Travel Nepal</h1>
+    </div>
+    <nav id="navbar">
+        <ul>
+            <li><a href="home-page.html">Home</a></li><!--link to home page-- >
+           <li><a href="about-us.html">About</a></li> 
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact-us.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+</body>
+</html>
